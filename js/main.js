@@ -85,7 +85,7 @@ $(document).on('ready', function(){
 			//if the current page is home slide it left and show hobbies
 			else{
 				$('#home').animate({
-						'left': '100px',
+						'left': '-100px',
 						'opacity': '0'
 					}, 1000, function(){
 						$('#hobbies').animate({'opacity': '1'}, 500);
