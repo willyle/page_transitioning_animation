@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+}
+
+#nav-main{
+	position: fixed;
+	z-index: 1;
+	top: calc(100vh - 75px);
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	background-color: Steelblue;
+
+	ul{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		list-style-type: none;
+		font-size: 200%;
+
+		li{
+			display: inline-block;
+			
+			&:hover{
+				background-color: Lightgray;
+			}
+		}
+	}
+}
+
+.selected{
+	background-color: Lightgray;
+}
+
+#container{
+	position: relative;
+	margin: 0 auto;
+	max-width: 600px;
+	min-width: 300px;
+}
+
+.page{
+	position: absolute;
+	width: 100%;
+	height: calc(100vh - 75px);
+	text-align: center;
+}
+
+#home{
+	background-color: Coral;
+	opacity: 1;
+}
+
+#work{
+	background-color: Yellow;
+	opacity: 0;
+}
+
+#hobbies{
+	background-color: Lightblue;
+	opacity: 0;
+}
